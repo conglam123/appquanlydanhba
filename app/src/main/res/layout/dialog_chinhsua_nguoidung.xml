@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="BẠN HÃY NHẬP THÔNG TIN"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:background="@color/white"
+        />
+    <EditText
+        android:id="@+id/editTextTChinhSuaTen"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Nhập tên"/>
+    <EditText
+        android:id="@+id/editTextChinhSuaSDT"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="number"
+        android:hint="Nhập số điện thoại"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonCapNhat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Cập nhật"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/buttonChinhSuaHuy"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Hủy"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</LinearLayout>
